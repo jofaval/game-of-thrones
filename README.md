@@ -91,7 +91,7 @@ This was a comparison of algorithms with different decomposition and preprocessi
 - **XGBoost Classifier**, a surprisingly efficient solution that, no matter if balanced or unbalanced, actually remained sort of unbiased and, while not having the highest score, performed greatly and consistently at the confusion matrix
 - **Baseline**, A dummy model that randomizes the output playing the part as a "Machine Learning Model", almost guaranteed to be close to a ~50% of score
 
-TL;DR; KNearest-Neighbour was the best one, by a mile.
+TL;DR; They all performed well enough, XGBoost and Logistic regression have a better confusion matrix.
 
 F1 score wasn't really great for our metrics here, what did gave an insight was the confusion matrix, since many models actually just return either all ones or all zeros. But balancing the data helped a lot fixing that.
 
@@ -126,7 +126,7 @@ As to the model, what seemed to matter the most for the survivance of a characte
 - Culture
 - Title
 
-Not everyone had a title, nor the age, a house they belonged to. But not having something is already having information. So I took that into account
+Not everyone had a title, nor the age, a house they belonged to. But not having something is already having information. So I took that into account. And this one I also feel that could have more potential to it, but it was hard to work it out to be honest.
 
 ## ©️ Credits
 [↑ Back to the table](#table-of-contents)
