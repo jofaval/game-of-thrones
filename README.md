@@ -78,7 +78,7 @@ And one of the strongest points, if not the most, about Python, are it's librari
 This was a comparison of algorithms with different decomposition and preprocessing techniques, it wasn't about evaluating the best fit as an algorithm, it was about justifying our choices and truly trying out, not all, not most, but quite a few options.
 
 - **Logistic Regression**, always start with the basics, it's surprising how effective the simplest of the solutions usually are, this project showed me that.
-- **Polynomial Logistic** Regression, Logistic Regression is Linear Regression with a logarithmic function applied to it's outcome to ensure a binary response, which means that we can add polynomial degrees to it's linear resolution as to improve it's understanding of the problem. Which turned out great
+- **Polynomial Logistic Regression**, Logistic Regression is Linear Regression with a logarithmic function applied to it's outcome to ensure a binary response, which means that we can add polynomial degrees to it's linear resolution as to improve it's understanding of the problem. Which turned out great
 - **Clustering K-Means**, a grouping/segmentation technique, it's not usually meant nor used to classify itself, but it can be done, and it performed, surprisingly, not that bad
 - **Clustering MiniBatch K-Means**, and cheaper cost-efficient K-Means implementation, once again, not that bad, at times, even surpasing K-Means
 - **KNearest-Neighbour**, imitating real life, near data tend to be similar, in other words, if a row is close (statistically speaking) to another row, there's a chance it will also be of the same label.
